@@ -1,0 +1,11 @@
+.side-bar-wrapper {
+  background: var(--accent-color);
+  max-width: 20%;
+  height: 100vh;
+  padding: 0.9375rem;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}/*# sourceMappingURL=sidebar_20231017113847.css.map */

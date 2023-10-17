@@ -1,0 +1,10 @@
+.side-bar-wrapper {
+  background: var(--container-bg-color);
+  width: 20%;
+  height: 100vh;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}/*# sourceMappingURL=sidebar_20231016222147.css.map */

@@ -1,0 +1,13 @@
+.profile-wrapper {
+  padding: 1.25rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* border: #000000 solid .125rem; */
+}
+.profile-wrapper img {
+  border: none;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=sideProfile.css.map */

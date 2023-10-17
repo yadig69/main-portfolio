@@ -27,8 +27,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role=list],
+ol[role=list] {
   list-style: none;
 }
 
@@ -36,7 +36,6 @@ ol[role='list'] {
 body {
   min-height: 100vh;
   line-height: 1.5;
-
   background: var(--main-bg-color);
 }
 
@@ -59,7 +58,8 @@ h4 {
   text-wrap: balance;
 }
 
-a, li {
+a,
+li {
   text-decoration: none;
   list-style: none;
   background-color: transparent;
@@ -71,7 +71,8 @@ li {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
   color: currentColor;
 }
 
@@ -90,7 +91,7 @@ select {
   font: inherit;
 }
 
-/* Make sure textareas without a rows attribute are not tiny */
+/* Make sure text areas without a rows attribute are not tiny */
 textarea:not([rows]) {
   min-height: 10em;
 }
@@ -98,25 +99,4 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
-}
-
-
-:root {
-  --white-color: #ffffff;
-  --main-bg-color: #43455c;
-  --accent-color: #3bba9c;
-/* skill colors */
-/* js */
-  --js-minion-yellow: #F0DB4F;
-  --js-dark-charcoal: #323330;
-  /* html */
-  --html-black: #000000;
-  --html-flame: #E34C26;
-  --html-carrot-orange: #F06529;
-  --html-bright-gray: #EBEBEB;
-  --html-white: #ffffff;
-}
-
-.title-name {
-  color: var(--accent-color);
-}
+}/*# sourceMappingURL=reset.css.map */
